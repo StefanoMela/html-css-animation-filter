@@ -132,10 +132,32 @@
 
 /*  */
 
-
 .ex-11-icon {
   font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation: spin 3s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(.5turn);
+  }
+  75% {
+    transform: rotate(.75turn);
+  }
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
+/*  */
 
 .ex-12-button,
 .ex-13-button {
