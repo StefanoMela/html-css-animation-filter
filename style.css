@@ -137,11 +137,11 @@
 }
 
 .ex-11-icon:hover {
-  animation: spin 3s linear infinite;
+  animation: spinLess 3s linear infinite;
 }
 
 
-@keyframes spin {
+@keyframes spinLess {
   0% {
     transform: rotate(0);
   }
