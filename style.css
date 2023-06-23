@@ -111,7 +111,8 @@
   filter: grayscale(.8) sepia(1);
   border-radius: 10%;
   scale: 1.5;
-  transition: 2s;
+  transform: rotateY(2turn);
+  transition: 6s ease-out;
 }
 
 /*  */
@@ -192,4 +193,53 @@
   background: #f5f5f5;
   width: 60px;
   height: 20px;
+}
+
+.ex-12-button:hover>.ex-12-top-white {
+  animation: moveUp 3s linear;
+}
+
+
+.ex-12-button:hover>.ex-12-bottom-white {
+  animation: moveDown 3s linear;
+}
+
+
+@keyframes moveUp {
+  0% {
+    transform: translate(0);
+  }
+  25%{
+    transform: translate(25%);
+  }
+  50% {
+    transform: translate(50%);
+  }
+  75% {
+    transform: translate(75%);
+  }
+  100% {
+    transform: translate(120%);
+  }
+
+}
+
+
+@keyframes moveDown {
+  0% {
+    transform: translate(90%);
+  }
+  25%{
+    transform: translate(75%);
+  }
+  50% {
+    transform: translate(50%);
+  }
+  75% {
+    transform: translate(25%);
+  }
+  100% {
+    transform: translate(100%);
+  }
+
 }
