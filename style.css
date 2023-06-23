@@ -107,6 +107,18 @@
   width: 400px;
 }
 
+.ex-9-img:hover {
+  filter: grayscale(.8) sepia(1);
+  border-radius: 10%;
+  scale: 1.5;
+  transition: 2s;
+}
+
+
+/*  */
+
+
+
 .ex-10-icon {
   font-size: 60px;
 }
