@@ -20,7 +20,7 @@
 }
 
 .ex-2-square:active {
-  width:  100%;
+  width: 100%;
   transition: 2s;
 }
 
@@ -79,16 +79,42 @@
   width: 500px;
 }
 
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+/*  */
+
+.ex-7-img:hover {
+  filter: grayscale(1) hue-rotate(90deg);
+  transition: 2s;
+}
+
+/*  */
+
+.ex-8-img:hover {
+  filter: grayscale(.8) sepia(1);
+  border-radius: 10%;
+  transition: 2s;
+}
+
+/*  */
+
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
 }
+
 .ex-10-icon {
   font-size: 60px;
 }
+
 .ex-11-icon {
   font-size: 60px;
 }
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
@@ -103,6 +129,7 @@
   text-align: center;
   text-decoration: none;
 }
+
 .ex-12-top-white,
 .ex-13-top-white {
   position: absolute;
@@ -112,6 +139,7 @@
   width: 60px;
   height: 20px;
 }
+
 .ex-12-bottom-white,
 .ex-13-bottom-white {
   position: absolute;
